@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080a0c" />
+    <meta name="description" content="Vértice Performance — projeto conceitual de landing page para academia desenvolvido por cerjo.dev." />
+    <meta property="og:title" content="Vértice Performance" />
+    <meta property="og:description" content="Treine mais forte. Evolua todos os dias." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: '#080a0c',
+              panel: '#101317',
+              line: '#24292f',
+              accent: '#f4d800'
+            },
+            fontFamily: {
+              display: ['Bebas Neue', 'sans-serif'],
+              body: ['Archivo', 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+    <title>Vértice Performance</title>
+  </head>
+  <body class="bg-ink text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
